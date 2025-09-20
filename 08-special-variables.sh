@@ -13,7 +13,7 @@ echo " Exit status of last executed command : $?"
 
 sleep 5
 echo " After sleep command, Exit status of last executed command : $?"
-echo " Last background command Process ID : $!"
+echo " Last background command Process ID : $! "
 echo " Shell name : $SHELL"
 echo " Operating system : $OSTYPE"
 echo " Current shell options : $-"
