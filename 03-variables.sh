@@ -1,7 +1,7 @@
 #!/bin/bash
 
-person1= Hemansh
-Person2= Vikram
+person1=Hemansh
+Person2=Vikram
 
 echo " $person1 : Hello, $Person2! Welcome to DevOps shell scripting."
 echo " $Person2 : Hello, $person1! How are you?"
