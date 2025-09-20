@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #passing arguments to script
-person1=S1
+person1=$1
 Person2=$2
 
 echo " $person1 : Hello, $Person2! Welcome to DevOps shell scripting."
