@@ -1,12 +1,12 @@
 #!/bin/bash
 
-R= '\e[0;31m' # Red
-G= '\e[0;32m' # Green
-Y= '\e[0;33m' # Yellow
-B= '\e[0;34m' # Blue
-M= '\e[0;35m' # Magenta
-C= '\e[0;36m' # Cyan
-W= '\e[0;37m' # White
+R= '\e[31m' # Red
+G= '\e[32m' # Green
+Y= '\e[33m' # Yellow
+B= '\e[34m' # Blue
+M= '\e[35m' # Magenta
+C= '\e[36m' # Cyan
+W= '\e[37m' # White
 N= '\e[0m'    # No Color    
 
 #R="\e[31m"
@@ -22,4 +22,3 @@ echo -e "${M}This is Magenta Color${N}"
 echo -e "${C}This is Cyan Color${N}"            
 echo -e "${W}This is White Color${N}"
 echo -e "${N}This is No Color${N}"
-
