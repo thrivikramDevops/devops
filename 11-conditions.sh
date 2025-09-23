@@ -2,7 +2,7 @@
 
 echo "Enter  number to check even or odd"
 read Number
-if( $Number%2 -eq 0)
+if [ $((Number%2)) -eq 0 ]  
 then 
     echo " Given $Number is Even"
     else
