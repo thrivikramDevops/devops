@@ -3,9 +3,9 @@
 NUMBER=$1
 
 for i in {1..10}; do
-    for j in i; do
-        RESULT=$((NUMBER * i * j))
-        echo "$NUMBER * $i * $j = $RESULT"
+    for j in {1..$i}; do
+        RESULT=$j
+        echo "$RESULT"
     done
 
     echo "$NUMBER * $i = $RESULT"
