@@ -7,4 +7,5 @@ for i in {1..$NUMBER}; do
         RESULT=1
         echo "$RESULT"
     done
+    ((i++)) 
 done
