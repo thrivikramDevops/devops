@@ -1,9 +1,25 @@
 #!/bin/bash
 
-R="\e[31m"
-G="\e[32m"
-Y="\e[33m"
-N="\e[0m"
+R= '\e[0;31m' # Red
+G= '\e[0;32m' # Green
+Y= '\e[0;33m' # Yellow
+B= '\e[0;34m' # Blue
+M= '\e[0;35m' # Magenta
+C= '\e[0;36m' # Cyan
+W= '\e[0;37m' # White
+N= '\e[0m'    # No Color    
 
-echo -e "$G Hello World $N"
-echo "Check this color"
+#R="\e[31m"
+#G="\e[32m"
+#Y="\e[33m"
+#N="\e[0m"
+
+echo -e "${R}This is Red Color${N}"
+echo -e "${G}This is Green Color${N}"
+echo -e "${Y}This is Yellow Color${N}"
+echo -e "${B}This is Blue Color${N}"
+echo -e "${M}This is Magenta Color${N}"
+echo -e "${C}This is Cyan Color${N}"            
+echo -e "${W}This is White Color${N}"
+echo -e "${N}This is No Color${N}"
+
