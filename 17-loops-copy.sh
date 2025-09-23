@@ -9,6 +9,6 @@ for i in {1..$NUMBER}; do
         j=$((j + 1))
         exit
     done
-    i=$((i + 1)
+    i=$(i + 1)
     exit 0 
 done
