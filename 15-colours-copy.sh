@@ -9,10 +9,15 @@ C='\e[36m' # Cyan
 W='\e[37m' # White
 N='\e[0m'  # No Color
 
+LOGDIR="/var/log/shell-script"
+mkdir -p $LOGDIR
+SCRIPT_NAME=$(echo $0 | cut -d . -f 1 )
+LOGFILE="$LOGDIR/$SCRIPT_NAME.log"
+
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
-    echo -e "${R}ERROR:: Please run this script with root privelege${N}"
+    echo -e "${R}ERROR:: Please run this script with root privelege${N}" > $LOGFILE
     exit 1 # failure is other than 0
 fi
 
