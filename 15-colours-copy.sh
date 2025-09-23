@@ -14,6 +14,9 @@ mkdir -p $LOGDIR
 SCRIPT_NAME=$(echo $0 | cut -d . -f 1 )
 LOGFILE="$LOGDIR/$SCRIPT_NAME.log"
 
+echo "Script started executed at: $(date)" | tee -a $LOGFILE
+
+
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
