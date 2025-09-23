@@ -16,3 +16,6 @@ else
     echo "Installing MySQL is SUCCESS"
 fi
 }
+
+dnf install mysql -y
+VALIDATE $? "MySQL"
