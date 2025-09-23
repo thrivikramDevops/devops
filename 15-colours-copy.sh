@@ -21,7 +21,7 @@ VALIDATE(){ # functions receive inputs through args just like shell script args
         echo -e "${R}ERROR:: Installing $2 is failure${N}"
         exit 1
     else
-        echo -e "${C}Installing $2 is $G SUCCESS"
+        echo -e "${C}Installing $2 is $G   SUCCESS${N}"
     fi
 }
 
