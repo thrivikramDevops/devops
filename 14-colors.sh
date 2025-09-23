@@ -1,6 +1,6 @@
 #!/bin/bash
 
-R="\e[31m" # Red
+R='\e[31m' # Red
 G="\e[32m" # Green
 Y="\e[33m" # Yellow
 B="\e[34m" # Blue
