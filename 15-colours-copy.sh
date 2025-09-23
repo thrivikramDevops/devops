@@ -41,7 +41,13 @@ else
     echo -e "Nginx already exist ... $Y SKIPPING $N"
 fi
 
-
+dnf list installed python3
+if [ $? -ne 0 ]; then     
+    dnf install python3 -y
+    VALIDATE $? "python3"
+else
+    echo -e "Python3 already exist ... $Y SKIPPING $N"
+fi
 
 dnf install python3 -y
 VALIDATE $? "python3"
