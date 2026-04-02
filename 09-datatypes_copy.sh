@@ -12,5 +12,5 @@ echo "Product of $NUMBER1 and $NUMBER2 is: $PRODUCT"
 Leaders=("Hemansh" "Vikram" "Ankit" "Rohit")
 echo "First Leader is: ${Leaders[0]}"
 echo "Second Leader is: ${Leaders[1]}"
-echo "All Leaders are: ${Leaders[@]}"
+echo "All Leaders are: ${Leaders[*]}"
 echo "Total number of Leaders are: ${#Leaders[@]}"  
