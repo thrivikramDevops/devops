@@ -11,7 +11,7 @@ N='\e[0m'  # No Color
 
 LOGDIR="/var/log/shell-script"
 mkdir -p $LOGDIR
-SCRIPT_NAME=$(echo $0 | cut -d . -f 1 )
+SCRIPT_NAME=$(echo $0 | cut -d . -f1 )
 LOGFILE="$LOGDIR/$SCRIPT_NAME.log"
 
 echo "Script started executed at: $(date)" | tee -a $LOGFILE
