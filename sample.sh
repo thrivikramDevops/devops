@@ -1,5 +1,5 @@
 #!/bin/bash
 #To print text Hello World
 echo "Hello, World!"
-echo "$date"
+echo "$(date)"
 echo "welcome to DevOps"
