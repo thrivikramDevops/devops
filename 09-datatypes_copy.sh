@@ -2,7 +2,7 @@
 
 NUMBER1=100
 NUMBER2=200
-SUM=$((NUMBER1 + NUMBER2))
+SUM=$(NUMBER1 + NUMBER2)
 echo "Sum of $NUMBER1 and $NUMBER2 is: $SUM"   
 DIFF=$((NUMBER2 - NUMBER1))
 echo "Difference of $NUMBER2 and $NUMBER1 is: $DIFF"   
