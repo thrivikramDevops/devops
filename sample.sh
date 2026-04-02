@@ -2,4 +2,4 @@
 #To print text Hello World
 echo "Hello, World!"
 echo "$date"
-echo" welcome to DevOps"
+echo "welcome to DevOps"
