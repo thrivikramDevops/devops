@@ -11,7 +11,7 @@ echo "current system uptime is : $(uptime -p)"
 echo "current system load is : $(uptime -s)"
 echo "current system memory usage is : $(free -h)"
 echo "current system disk usage is : $(df -h)"
-echo "current system CPU usage is : $(top -bn1 | grep "Cpu(s)"
+echo "current system CPU usage is : $(top -bn1 | grep Cpu(s))"
 echo "current system network usage is : $(ifconfig)"
 echo "current system processes are : $(ps -ef)"
 echo "current system environment variables are : $(env)"
@@ -34,5 +34,3 @@ difference=$((Number1 - number2))
 echo "The difference of $Number1 and $number2 is : $difference"
 quotient=$((Number1 / number2))
 echo "The quotient of $Number1 and $number2 is : $quotient"
-remainder=$((Number1 % number2))
-echo "The remainder of $Number1 and $number2 is : $remainder "
